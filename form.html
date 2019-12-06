@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div>
+    <form class="content" method="post">
+        <h1>
+            Rejestracja
+        </h1>
+        Imię <br/><input class="frame" name="firstName" value="Wpisz imię"><br/>
+        Nazwisko <br/><input class="frame" type="text" name="latsName" value="Wpisz nazwisko"><br/>
+        <table>
+            <tbody>
+            <tr>
+                <td style="padding-right: 100px">Płeć</td>
+                <td><input type="radio" name="gender"> Kobieta<br/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="gender"> Mężczyzna<br/></td>
+            </tr>
+            </tbody>
+        </table>
+        Adres e-mail <br/><input class="frame" type="email" value="Wpisz adres e-mail"><br/>
+        Hasło <br/><input class="frame" type="password" name="password" value="Hasło"> <br/>
+        <span style="color: gray"><span style="font-size: small">Min 8 znaków</span> </span><br/>
+        <table>
+            <tbody>
+            <tr>
+                <td>Miasto</td>
+                <td>Województwo</td>
+                <td>Kod pocztowy</td>
+            </tr>
+            <tr>
+                <td class="tableCity"><input class="frame" type="text" name="city"></td>
+                <td class="tableVoivodeship"><select class="frame">
+                    <option>Wybierz...</option>
+                    <option>dolnośląskie</option>
+                    <option>kujawsko-pomorskie</option>
+                    <option>lubelskie</option>
+                    <option>lubuskie</option>
+                    <option>łódzkie</option>
+                    <option>małopolskie</option>
+                    <option>mazowieckie</option>
+                    <option>opolskie</option>
+                    <option>podkarpackie</option>
+                    <option>podlaskie</option>
+                    <option>pomorskie</option>
+                    <option>śląskie</option>
+                    <option>świętokrzyskie</option>
+                    <option>warmińsko-mazurskie</option>
+                    <option>wielkopolskie</option>
+                    <option>zachodniopomorskie</option>
+                </select>
+                </td>
+                <td class="tableCode"><input class="frame" type="text" name="zip code"></td>
+            </tr>
+            </tbody>
+        </table>
+        <input type="checkbox" name="statute"> Akceptuję <span style="color: cornflowerblue"> regulamin </span> <br/>
+        <input type="checkbox" name="agreement"> Wyrażam zgodę na otrzymywanie informacji marketingowych<br/>
+        <input class="submit" type="submit" value="Rejestruj">
+    </form>
+</div>
+</body>
+</html>

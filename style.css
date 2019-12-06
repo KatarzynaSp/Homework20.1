@@ -1,0 +1,38 @@
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 0.7cm;
+}
+
+.frame {
+    color: gray;
+    width: 98%;
+    padding: 5px;
+}
+
+.tableCity {
+    column-width: 400px;
+    padding-right: 10px;
+
+}
+
+.tableVoivodeship {
+    column-width: 350px;
+
+}
+
+.tableCode {
+    column-width: 150px;
+
+}
+
+.submit {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+.radioStyle {
+    background-color: cornflowerblue;
+}
